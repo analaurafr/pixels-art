@@ -1,23 +1,23 @@
 .color {
-    border: 1px solid black;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
 
 .black {
-    background-color: black;
+  background-color: black;
 }
 
 .gray {
-    background-color: gray;
+  background-color: gray;
 }
 
 .pink {
-    background-color: pink;
+  background-color: pink;
 }
 
 .blueviolet {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }

@@ -37,3 +37,15 @@ document.getElementById('button-random-color').addEventListener('click', () => {
 });
 
 loadColorPalette();
+
+const pixelBoard = document.querySelectorAll('pixel-board');
+
+const createPixelBoard() => {
+    for (let index = 0; index < totalPixels; index += 1) {
+        const pixel = document.createElement('div');
+        pixel.classList.add('pixel');
+        pixelBoard.appendChild(pixel);
+}
+}
+
+createPixelBoard();
