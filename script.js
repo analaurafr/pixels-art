@@ -38,14 +38,14 @@ document.getElementById('button-random-color').addEventListener('click', () => {
 
 loadColorPalette();
 
-const pixelBoard = document.querySelectorAll('pixel-board');
-
-const createPixelBoard() => {
-    for (let index = 0; index < totalPixels; index += 1) {
-        const pixel = document.createElement('div');
-        pixel.classList.add('pixel');
-        pixelBoard.appendChild(pixel);
+const pixelBoard = document.querySelector('#pixel-board');
+for (let index = 0; index < 5; index += 1) {
+  const row = document.createElement('div');
+  row.classList.add('row');
+  for (let j = 0; j < 5; j += 1) {
+    const pixel = document.createElement('div');
+    pixel.classList.add('pixel');
+    row.appendChild(pixel);
+  }
+  pixelBoard.appendChild(row);
 }
-}
-
-createPixelBoard();

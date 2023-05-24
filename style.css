@@ -21,3 +21,11 @@
 .blueviolet {
   background-color: blueviolet;
 }
+
+.pixel {
+  border: 1px solid black;
+  display: inline-block;
+  width: 19px;
+  height: 20px;
+  background-color: white;
+}
